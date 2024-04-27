@@ -21,6 +21,11 @@ final class RMTabBarController: UITabBarController {
         let locationVC = RMLocationViewController()
         let settigngsVC = RMSettingsViewController()
         
+        characterVC.navigationItem.largeTitleDisplayMode = .automatic
+        characterVC.navigationItem.largeTitleDisplayMode = .automatic
+        characterVC.navigationItem.largeTitleDisplayMode = .automatic
+        characterVC.navigationItem.largeTitleDisplayMode = .automatic
+        
         characterVC.tabBarItem = UITabBarItem(title: "Character", image: UIImage(systemName: "person"), tag: 1)
         episodeVC.tabBarItem = UITabBarItem(title: "Episode", image: UIImage(systemName: "clock"), tag: 2)
         locationVC.tabBarItem = UITabBarItem(title: "Location", image: UIImage(systemName: "globe"), tag: 3)
