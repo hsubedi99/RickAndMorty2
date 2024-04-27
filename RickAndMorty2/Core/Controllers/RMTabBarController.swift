@@ -39,7 +39,7 @@ final class RMTabBarController: UITabBarController {
         let nav4 = UINavigationController(rootViewController: settigngsVC)
         
         UINavigationBar.appearance().prefersLargeTitles = true
-        UINavigationBar.appearance().tintColor = .systemGreen
+//        UINavigationBar.appearance().tintColor = .systemGreen
         
 //        for nav in [nav1, nav2, nav3, nav4]{
 //            nav.navigationBar.prefersLargeTitles = true
