@@ -33,9 +33,6 @@ final class RMTabBarController: UITabBarController {
         
         UITabBar.appearance().tintColor = .systemGreen
         
-                
-        
-        
         let nav1 = UINavigationController(rootViewController: characterVC)
         let nav2 = UINavigationController(rootViewController: episodeVC)
         let nav3 = UINavigationController(rootViewController: locationVC)

@@ -68,7 +68,8 @@
 		2C72F71C2BDD821C001D57E9 /* RickAndMorty2 */ = {
 			isa = PBXGroup;
 			children = (
-				2C72F7312BDD83C4001D57E9 /* Controllers */,
+				2C72F7452BDD8E2D001D57E9 /* Core */,
+				2C72F7442BDD8E1D001D57E9 /* Managers */,
 				2C72F7332BDD83EF001D57E9 /* Models */,
 				2C72F7322BDD83DC001D57E9 /* Views */,
 				2C72F7342BDD83F8001D57E9 /* ViewModels */,
@@ -123,6 +124,21 @@
 				2C72F7282BDD821E001D57E9 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C72F7442BDD8E1D001D57E9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C72F7452BDD8E2D001D57E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C72F7312BDD83C4001D57E9 /* Controllers */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
